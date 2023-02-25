@@ -10,7 +10,7 @@ for (int i=1; i<=cathetusLength; i++) {
     for (int j=1; j<=(cathetusLength-i); j++) {
         System.out.print(" ");
     }
-    for (int t=0; t<=(i-1); t++) {
+    for (int t=1; t<=(i-1); t++) {
         System.out.print("*");
     }
     System.out.println("*");
