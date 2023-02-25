@@ -6,7 +6,7 @@ public class Power {
         if (power < 0) {
             System.out.println("power is negative");
         }
-        else if (power == 0) {
+        else if (power==0) {
             System.out.println("1");
         }
         else {
