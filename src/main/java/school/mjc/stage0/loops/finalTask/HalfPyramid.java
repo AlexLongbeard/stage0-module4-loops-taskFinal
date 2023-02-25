@@ -3,7 +3,7 @@ package school.mjc.stage0.loops.finalTask;
 public class HalfPyramid {
     public void printHalfPyramid(int cathetusLength) {
         if (cathetusLength == 0) {
-            System.out.print(" ");
+            System.out.print("");
         }
         else {
 for (int i=1; i<=cathetusLength; i++) {
